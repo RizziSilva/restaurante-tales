@@ -27,12 +27,16 @@ document.addEventListener("DOMContentLoaded", () => {
   // Função para carregar todas as reservas do cliente
   async function carregarReservas() {
     try {
-      const response = await fetch("http://localhost:4000/api/reservas", {
-        method: "GET",
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const response = await fetch(
+        `https://restaurante-tales.onrender.com/api/
+reservas`,
+        {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
 
       if (!response.ok) {
         const errorBody = await response.text();
@@ -97,7 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await fetch(
-        `http://localhost:4000/api/reservas/${reservaId}/confirmar`,
+        `https://restaurante-tales.onrender.com/api/
+reservas/${reservaId}/confirmar`,
         {
           method: "POST",
           headers: {
