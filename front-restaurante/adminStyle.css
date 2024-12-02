@@ -1,0 +1,240 @@
+
+.admin {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70975e;
+}
+
+
+.login-container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.login-container h1 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    margin-top: 0.5px;
+    color: #333;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+.login-container input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+h1{
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #045a04;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+
+.login-container button:hover {
+    background-color: #000000;
+}
+
+
+.reservas-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reservas-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#reservas-list {
+    list-style: none;
+    padding: 0;
+}
+
+#reservas-list li {
+    background-color: #fff7f0;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#reservas-list li h3 {
+    margin: 0;
+    color: #000000;
+}
+
+#reservas-list li p {
+    margin: 5px 0;
+    color: #666;
+}
+
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #70975e;
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.reservas {
+    font-size: 2em;
+    color: #030303;
+    margin-bottom: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+#data-selecionada {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    width: 40%;
+    margin-right: 10px;
+}
+
+#filtrar-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #70975e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+#filtrar-btn:hover {
+    background-color: #000000;
+}
+
+
+#lista-reservas {
+    margin-top: 20px;
+}
+
+#lista-reservas .reserva-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+#lista-reservas .reserva-item h3 {
+    margin: 0 0 10px 0;
+    color: #272727;
+}
+
+#lista-reservas .reserva-item p {
+    margin: 5px 0;
+    color: #4e4e4e;
+}
+
+#mensagem-alerta {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 128, 0, 0.8); 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: none; 
+    z-index: 1000;
+    text-align: center;
+}
+
+.mensagem.sucesso {
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.confirmar-btn {
+    background-color: #70975e; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.confirmar-btn:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);
+}
+
+
+.confirmar-btn:active {
+    background-color: #388e3c; 
+    transform: scale(0.98);
+}
